@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComprePequenoJundiai">
-        <activity android:name=".view.HomeActivity"/>
+        <activity android:name=".view.RestaurantDetailsActivity" />
+        <activity android:name=".view.MenuDetailsActivity" />
+
+        <activity android:name=".view.HomeActivity" />
         <activity android:name=".view.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

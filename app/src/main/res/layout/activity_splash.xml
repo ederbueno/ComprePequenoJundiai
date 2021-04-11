@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".view.SplashActivity">
 
-    <ImageView
+
+
+
+    <VideoView
+        android:id="@+id/video"
         android:layout_width="367dp"
         android:layout_height="415dp"
-        android:src="@drawable/comprepequeno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
